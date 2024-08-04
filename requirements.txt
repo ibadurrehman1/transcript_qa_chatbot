@@ -1,0 +1,11 @@
+langchain-groq
+python-dotenv
+chainlit
+openai
+pypdf
+chromadb
+tiktoken
+langchain-openai
+langchain==0.2.7
+langchain-community==0.2.6
+langchain-core==0.2.12
