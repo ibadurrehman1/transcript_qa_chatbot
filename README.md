@@ -40,6 +40,11 @@ This repository showcases a Question-Answering (QA) bot specifically designed to
       OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
       ```
 
+    *Obtain API Keys*:
+
+    - Create a GROQ API key from: [GROQ API Console](https://console.groq.com/keys)
+    - Create an OpenAI API key from: [OpenAI Platform](https://platform.openai.com/docs/overview)
+
 6. **Run the Application**:
     ```bash
     chainlit run main.py
