@@ -6,12 +6,18 @@ This repository showcases a Question-Answering (QA) bot specifically designed to
 
 ## Setup Instructions
 
-1. **Create a Virtual Environment**:
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/ibadurrehman1/transcript_qa_chatbot.git
+    cd transcript_qa_chatbot
+    ```
+
+2. **Create a Virtual Environment**:
     ```bash
     python3 -m venv venv
     ```
 
-2. **Activate the Virtual Environment**:
+3. **Activate the Virtual Environment**:
     - On Windows:
         ```bash
         venv\Scripts\activate
@@ -21,12 +27,12 @@ This repository showcases a Question-Answering (QA) bot specifically designed to
         source venv/bin/activate
         ```
 
-3. **Install Required Dependencies**:
+4. **Install Required Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the Application**:
+5. **Run the Application**:
     ```bash
     chainlit run main.py
     ```
@@ -38,3 +44,4 @@ This repository showcases a Question-Answering (QA) bot specifically designed to
 
 2. **Start Chatting**:
     - Once the file is uploaded, you can start asking questions and the QA bot will retrieve the relevant information from the ingested transcript.
+
