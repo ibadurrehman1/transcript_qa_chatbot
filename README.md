@@ -32,7 +32,15 @@ This repository showcases a Question-Answering (QA) bot specifically designed to
     pip install -r requirements.txt
     ```
 
-5. **Run the Application**:
+
+5. **Create an Environment File**:
+    - Create a file named `.env` in the project root directory and add the following content:
+      ```plaintext
+      GROQ_API_KEY="YOUR_GROQ_API_KEY"
+      OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+      ```
+
+6. **Run the Application**:
     ```bash
     chainlit run main.py
     ```
