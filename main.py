@@ -53,7 +53,7 @@ async def on_chat_start():
     # Wait for the user to upload a file
     while files == None:
         files = await cl.AskFileMessage(
-            content="Please upload a text/pdf file to begin!",
+            content="This application serves as a Question-Answering (QA) bot specifically designed to assist users in retrieving information from medical transcripts. To begin, please upload a transcripts text or PDF file",
             accept={"text/plain": [".txt", ".py"], "application/pdf": [".pdf"]},
             max_size_mb=20,
             timeout=180,
@@ -131,3 +131,9 @@ async def main(
         msg.elements = text_elements
 
     await msg.update()
+
+
+if __name__ == "__main__":
+    import subprocess
+
+    subprocess.run(["chainlit", "run", "main.py"])
